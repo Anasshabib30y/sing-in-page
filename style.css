@@ -36,7 +36,7 @@ label{
 input{
 
     margin-top: 20px;
-    margin-bottom: 10;
+    margin-bottom: 10px;
     width: 100%;
     padding: 5px;
     display: block;
@@ -46,7 +46,7 @@ input{
     resize:vertical;
     border-radius: 10px;
 }
-a{
+/* a{
     /* display: inline-block;
     text-decoration: none;
     background-color: #0c2e8a;
@@ -59,7 +59,7 @@ a{
     transition: 0.7s ease;
     text-align: center;
     margin-bottom: 40px;
-    margin-left: 20px; */
+    margin-left: 20px; 
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -73,6 +73,6 @@ a{
     border-radius: 10px;
     text-align: center;
     color: black;
-    margin-top: 80px;
+    margin-top: 70px;
 
-}
+}*/
