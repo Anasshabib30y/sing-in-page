@@ -35,14 +35,44 @@ label{
 }
 input{
 
-    margin-top: 10px;
-    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: 10;
     width: 100%;
     padding: 5px;
     display: block;
-    font-size: 27.9px;
+    font-size: 29.9px;
     background-color: #fbfbfb;
     border:solid 1px #ccc;
     resize:vertical;
     border-radius: 10px;
+}
+a{
+    /* display: inline-block;
+    text-decoration: none;
+    background-color: #0c2e8a;
+    color: #ffffff;
+    letter-spacing: 1px;
+    width:  00px;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    border-color: #0c07af;
+    transition: 0.7s ease;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 600px;
+    letter-spacing: 1px;
+    font-size: 35px;
+
+    background-color: #fbfbfb;
+    border:solid 1px #ccc;
+    resize:vertical;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+
 }
