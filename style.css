@@ -25,7 +25,15 @@ body{
 }
 
 
-
+label{
+    margin-top: 10px;
+    margin-bottom: auto;
+    display: block;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    color: rgba(240, 248, 255, 0.69);
+}
 input[type="password"],input[type="email"],input[type="text"]{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -37,6 +45,7 @@ input[type="password"],input[type="email"],input[type="text"]{
     border-bottom:solid 1px #ccc;
     resize:vertical;
     border-radius: 10px;
+    color: white;
 }
 input[type="submit"],input[type="reset"]{    margin-top: 20px;
     margin-bottom: 10px;
@@ -48,6 +57,7 @@ input[type="submit"],input[type="reset"]{    margin-top: 20px;
     border:solid 1px #ccc;
     resize:vertical;
     border-radius: 10px;
+    color: rgba(255, 255, 255, 0.682);
 }
 
 /* a{
