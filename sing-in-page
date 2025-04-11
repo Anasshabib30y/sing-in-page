@@ -1,0 +1,251 @@
+Last login: Sat Mar 22 17:27:27 on ttys001
+mohamedshabib@MacBook-Air-mohamed ~ % git init "sing-in"
+Reinitialized existing Git repository in /Users/mohamedshabib/sing-in/.git/
+mohamedshabib@MacBook-Air-mohamed ~ % ls
+Applications				Movies					sing-in
+Desktop					Music					untitled.blend
+Documents				Pictures				?iCloud Drive (الأرشيف)
+Downloads				Public
+Library					portfolio-new
+mohamedshabib@MacBook-Air-mohamed ~ % cd sing-in
+mohamedshabib@MacBook-Air-mohamed sing-in % ls        
+mohamedshabib@MacBook-Air-mohamed sing-in % ls -a
+.	..	.git
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+mohamedshabib@MacBook-Air-mohamed sing-in % touch index.html          
+mohamedshabib@MacBook-Air-mohamed sing-in % touch style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+mohamedshabib@MacBook-Air-mohamed sing-in % git add index.html
+mohamedshabib@MacBook-Air-mohamed sing-in % git add style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   style.css
+
+mohamedshabib@MacBook-Air-mohamed sing-in % git commit -m "creat index.html and style.css
+dquote> git commit -m "creat index.html and style.css
+"
+dquote> git status
+dquote> git commit -m "creat index.html and style.css"
+dquote> git commit -m "create index.html and style.css"
+
+dquote> clear
+dquote> git commit -m "creat index.html,style.css"
+dquote> 
+mohamedshabib@MacBook-Air-mohamed sing-in %  git commit -m "creat index.html,style.css"
+[master (root-commit) 4897a79] creat index.html,style.css
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+nothing to commit, working tree clean
+mohamedshabib@MacBook-Air-mohamed sing-in % git lo
+git: 'lo' is not a git command. See 'git --help'.
+
+The most similar commands are
+	log
+	lg
+	ll
+mohamedshabib@MacBook-Air-mohamed sing-in % git log
+commit 4897a79f64521ca4b4114a170d0e5a315c98ce01 (HEAD -> master)
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sat Mar 22 17:38:20 2025 +0300
+
+    creat index.html,style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status 
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+mohamedshabib@MacBook-Air-mohamed sing-in % git add index.html
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+mohamedshabib@MacBook-Air-mohamed sing-in % git commit -m"write codes in index.html"
+[master 03946ee] write codes in index.html
+ 1 file changed, 24 insertions(+)
+mohamedshabib@MacBook-Air-mohamed sing-in % git log
+commit 03946eee268741d81a15d1e7ab297c9042bd7f93 (HEAD -> master)
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 00:24:13 2025 +0300
+
+    write codes in index.html
+
+commit 4897a79f64521ca4b4114a170d0e5a315c98ce01
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sat Mar 22 17:38:20 2025 +0300
+
+    creat index.html,style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+mohamedshabib@MacBook-Air-mohamed sing-in % git add index.html
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+mohamedshabib@MacBook-Air-mohamed sing-in % git commit -m"Add resut  input"
+[master 9814560] Add resut  input
+ 1 file changed, 2 insertions(+)
+mohamedshabib@MacBook-Air-mohamed sing-in % git log
+commit 9814560b08069be9bf39b7376322fcb91c3248fc (HEAD -> master)
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:14:44 2025 +0300
+
+    Add resut  input
+
+commit b790c721cce080a36efe0df38198490d6ff7e84b
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:11:34 2025 +0300
+
+    Add Emage
+
+commit 03946eee268741d81a15d1e7ab297c9042bd7f93
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 00:24:13 2025 +0300
+
+    write codes in index.html
+
+commit 4897a79f64521ca4b4114a170d0e5a315c98ce01
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sat Mar 22 17:38:20 2025 +0300
+
+    creat index.html,style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git add style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git commit -m"changing code in css "
+[master 1a9bc60] changing code in css
+ 1 file changed, 33 insertions(+), 3 deletions(-)
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+nothing to commit, working tree clean
+mohamedshabib@MacBook-Air-mohamed sing-in % gi log
+zsh: command not found: gi
+mohamedshabib@MacBook-Air-mohamed sing-in % git log
+commit 1a9bc6076350c6d1ae2ad1ab6e837ad2fc04523f (HEAD -> master)
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:28:49 2025 +0300
+
+    changing code in css
+
+commit 9814560b08069be9bf39b7376322fcb91c3248fc
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:14:44 2025 +0300
+
+    Add resut  input
+
+commit b790c721cce080a36efe0df38198490d6ff7e84b
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:11:34 2025 +0300
+
+    Add Emage
+
+commit 03946eee268741d81a15d1e7ab297c9042bd7f93
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 00:24:13 2025 +0300
+
+    write codes in index.html
+
+commit 4897a79f64521ca4b4114a170d0e5a315c98ce01
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sat Mar 22 17:38:20 2025 +0300
+
+    creat index.html,style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+mohamedshabib@MacBook-Air-mohamed sing-in % git add index.html style.css
+mohamedshabib@MacBook-Air-mohamed sing-in % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+	modified:   style.css
+
+mohamedshabib@MacBook-Air-mohamed sing-in % git commit -m"add submet button"
+[master 8f03dcb] add submet button
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+mohamedshabib@MacBook-Air-mohamed sing-in % git log
+commit 8f03dcb3a05f05dd6ff2f8cc6a385766d9b0c673 (HEAD -> master)
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 22:01:08 2025 +0300
+
+    add submet button
+
+commit 1a9bc6076350c6d1ae2ad1ab6e837ad2fc04523f
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:28:49 2025 +0300
+
+    changing code in css
+
+commit 9814560b08069be9bf39b7376322fcb91c3248fc
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:14:44 2025 +0300
+
+    Add resut  input
+
+commit b790c721cce080a36efe0df38198490d6ff7e84b
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 04:11:34 2025 +0300
+
+    Add Emage
+
+commit 03946eee268741d81a15d1e7ab297c9042bd7f93
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sun Mar 23 00:24:13 2025 +0300
+
+    write codes in index.html
+
+commit 4897a79f64521ca4b4114a170d0e5a315c98ce01
+Author: Anasshabib30y <anasshabib30y@gmail.com>
+Date:   Sat Mar 22 17:38:20 2025 +0300
+
+    creat index.html,style.css
+:
