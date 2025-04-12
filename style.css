@@ -1,5 +1,5 @@
 html{
- background-image: url("images/moon.png");
+ background-image: url("images/full-moon-elden-ring.1920x1080.mp4");
  background-size: cover;
  background-repeat: no-repeat;
 
@@ -11,7 +11,7 @@ body{
     align-items: center;
     background: rgba(30, 30, 30, 0.376);
     backdrop-filter: blur(4px);
-    box-shadow:0px 0px 100px 5px  rgba(0, 64, 255, 0.608);
+    box-shadow:0px 0px 100px 5px  rgba(124, 126, 134, 0.608);
      border-radius: 40px;
     margin: 100px auto;
     margin-bottom: 50px;
